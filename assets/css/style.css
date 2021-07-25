@@ -305,9 +305,136 @@ h2 {
 /* SECTION 2 .services */
 
 .services {
-  height: 100vh;
+  position: relative;
+  height: 80vh;
   display: flex;
-  width: 90%;
+  width: 80%;
   margin: auto;
 }
 /* SECTION 3 .works */
+
+
+.services-left {
+
+
+  width:40%
+}
+.services-right {
+  width:60%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+
+
+.services-group{
+
+  width:90%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+
+.service0{
+  border-radius: 20px;
+  
+margin: 1rem;
+cursor: pointer;
+  padding:1rem  1rem;
+  display: flex;
+  /* justify-content:space-around;
+   */
+
+  transition :  0.7s;
+}
+
+
+.service0:hover{
+transition:0.5s;
+
+  /* box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.583); */
+transform:scale(1.1)
+
+}
+
+.service0>i{
+  font-size: 3.2rem;
+  flex:1;
+
+}
+
+
+
+.service-text{
+
+margin-left: 2rem;
+}
+h3{
+
+font-size: 2rem;
+margin-bottom: 1rem;
+}
+
+.section-header{
+  position: absolute;
+  top: 0;
+  justify-self: flex-start;
+
+align-self: flex-start;
+
+}
+.service-des{
+  /* margin: 1rem 0; */
+  /* flex:1; */
+
+
+  line-height: 1.7;
+
+  font-size :1.2rem;
+}
+
+.services-left{
+  display:flex;
+  flex-direction:column;
+  justify-content:center; 
+  align-items: center;
+}
+
+#animation-placeholder{
+  width:80%;
+  /* height: 200px; */
+
+
+}
+
+#animation-placeholder>img{
+
+  height: 400px
+}
+
+/* #service1{
+background-color: #9076ec;
+
+}
+#service2{background-color: #00bcc4;}
+#service3{
+
+background-color:#e45fff;
+
+}
+#service4{
+  background-color: #ffbe80;
+} */
+#service1>i{
+color: #8f76ec91;
+
+}
+#service2>i{color: #7cdde0;}
+#service3>i{
+color:#d58be3b6;
+
+}
+#service4>i{
+color: #e7c3a1;
+}
