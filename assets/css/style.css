@@ -3,54 +3,130 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1.4;
+  line-height: 1.4;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-
-
-
-
-
 
 * {
   margin: 0;
@@ -63,44 +139,40 @@ body {
   font-size: 62.5%;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
-  transition:filter 1s;
+  transition: filter 1s;
 }
 
-
+/* DARK MODE */
 
 .dark-mode {
-
-    background-color: black;
-    filter: invert(1) hue-rotate(180deg);
-}
-
-.undo-invert {
-    transition:none;
+  background-color: black;
   filter: invert(1) hue-rotate(180deg);
 }
 
+.undo-invert {
+  transition: none;
+  filter: invert(1) hue-rotate(180deg);
+}
 
 #dark-toggle {
+  font-size: 2.5rem;
+  width: 4.6rem;
+  text-align: right;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
 
-    font-size: 2.5rem;
-    width: 4.6rem;
-    text-align: right;
-    border:none;
-    outline:none;
-    cursor: pointer;
-    background-color:transparent;
-
-    transition:0.3s;
+  transition: 0.3s;
 }
 
-#dark-toggle:hover{
-
-
-    font-size:3rem;
-   
+#dark-toggle:hover {
+  font-size: 3rem;
 }
+
+/* TOP BAR */
 h1 {
-    font-weight: bold;
+  font-weight: bold;
   font-size: 2rem;
   margin: 1rem 2rem;
   color: black;
@@ -136,8 +208,8 @@ nav {
   margin: 2rem;
 }
 
-.contact_btn-main{
-  padding: 1.1rem ;
+.contact_btn-main {
+  padding: 1.1rem;
   color: aliceblue;
   border: none;
   font-size: 1.4rem;
@@ -145,12 +217,11 @@ nav {
 
   background-color: #6562cf;
 }
-.contact{
-
-    color:#6562cf;
-    /* text-decoration: underline; */
-    cursor: pointer;
-    font-weight: 700;
+.contact {
+  color: #6562cf;
+  /* text-decoration: underline; */
+  cursor: pointer;
+  font-weight: 700;
 }
 
 .contact_btn-main:hover {
@@ -160,6 +231,8 @@ nav {
 #hqube {
   margin-right: 0.4rem;
 }
+
+/* HERO SECTION */
 
 .hero {
   height: 90vh;
@@ -187,7 +260,7 @@ nav {
 
 .hero-image {
   height: 560px;
-  transition:none !important;
+  transition: none !important;
 }
 h2 {
   font-size: 3.5rem;
@@ -202,7 +275,7 @@ h2 {
 }
 
 #hero-txt {
-    line-height: 1.8;
+  line-height: 1.8;
   margin: 3.5rem 0;
 
   font-size: 1.4rem;
@@ -213,39 +286,28 @@ h2 {
         animation: looper ease-in-out alternate-reverse infinite 1s;
 } */
 
-
-#RIGHT{
-    animation: looper ease-in-out alternate-reverse infinite 1s;
-
-    
+#RIGHT {
+  animation: looper ease-in-out alternate-reverse infinite 1s;
 }
 
-#LEFT{
-    animation: looper ease-in-out alternate-reverse infinite 0.6s;
-
-    
+#LEFT {
+  animation: looper ease-in-out alternate-reverse infinite 0.6s;
 }
 @keyframes looper {
-from {
-
+  from {
     transform: rotate(-0.4deg);
-}
-to{
+  }
+  to {
     transform: rotate(0.4deg);
-
+  }
 }
-
-}
-
 
 /* SECTION 2 .services */
 
-
-
 .services {
-
   height: 100vh;
   display: flex;
   width: 90%;
   margin: auto;
 }
+/* SECTION 3 .works */
