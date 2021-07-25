@@ -5,7 +5,7 @@ button.addEventListener('click', ()=>{
   document.documentElement.classList.toggle('dark-mode');
 
 
-  excluded=[".contact_btn",".contact_btn-main"]
+  excluded=[".contact_btn-main"]
 
   excluded.forEach((element)=>{
 

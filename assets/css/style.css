@@ -87,11 +87,13 @@ body {
     border:none;
     outline:none;
     cursor: pointer;
+    background-color:transparent;
 
     transition:0.3s;
 }
 
 #dark-toggle:hover{
+
 
     font-size:3rem;
    
@@ -197,7 +199,7 @@ h2 {
 }
 
 #hero-txt {
-    line-height: 1.6;
+    line-height: 1.8;
   margin: 3.5rem 0;
 
   font-size: 1.4rem;
