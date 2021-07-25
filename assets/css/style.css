@@ -207,25 +207,31 @@ h2 {
 
   font-size: 1.4rem;
 }
-#LAPTOP{
+/* #LAPTOP{
     position: relative;
 
         animation: looper ease-in-out alternate-reverse infinite 1s;
+} */
+
+
+#RIGHT{
+    animation: looper ease-in-out alternate-reverse infinite 1s;
+
+    
 }
 
-
-#FOOT{
-    animation: looper ease-in-out alternate-reverse infinite 1s;
+#LEFT{
+    animation: looper ease-in-out alternate-reverse infinite 0.6s;
 
     
 }
 @keyframes looper {
 from {
 
-    transform: rotate(-0.8deg);
+    transform: rotate(-0.4deg);
 }
 to{
-    transform: rotate(0.7deg);
+    transform: rotate(0.4deg);
 
 }
 
