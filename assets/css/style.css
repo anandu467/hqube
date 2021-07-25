@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+
+.dark-mode {
+    transition:filter 1s;
+    background-color: black;
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.undo-invert {
+    transition:none;
+  filter: invert(1) hue-rotate(180deg);
+}
+
+
+#dark-toggle {
+
+    font-size: 3rem;
+    width: 8rem;
+    text-align: right;
+    border:none;
+    outline:none;
+    cursor: pointer;
+
+    transition:0.3s;
+}
+
+#dark-toggle:hover{
+
+    font-size:4rem;
+   
+}
+h1 {
+  font-size: 2.5rem;
+  margin: 1rem 2rem;
+  color: black;
+}
+
+.logo {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+#main_logo {
+  height: 40px;
+}
+
+nav {
+  width: 90%;
+  margin: auto;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#header-items {
+  justify-self: flex-end;
+
+  display: flex;
+  font-size: 2rem;
+  list-style: none;
+}
+.header-item {
+  margin: 2rem;
+}
+
+.contact_btn ,.contact_btn-main{
+  padding: 1.4rem 2rem;
+  color: aliceblue;
+  border: none;
+  font-size: 2rem;
+  width: 16rem;
+
+  background-color: #6562cf;
+}
+
+.contact_btn:hover {
+  background-color: #4f4bae;
+}
+
+#hqube {
+  margin-right: 0.4rem;
+}
+
+.hero {
+  height: 90vh;
+  width: 60%;
+  margin: auto;
+  display: flex;
+}
+.hero-left {
+  width: 60%;
+}
+
+.hero-right {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  height: 800px;
+}
+h2 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+.container {
+  width: 80%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#hero-txt {
+  margin: 4rem 0;
+
+  font-size: 2rem;
+}
