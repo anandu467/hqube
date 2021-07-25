@@ -176,6 +176,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: visible;
 }
 
 .hero-left {
@@ -205,4 +206,20 @@ h2 {
   margin: 3.5rem 0;
 
   font-size: 1.4rem;
+}
+#LAPTOP{
+    position: relative;
+
+        animation: looper  forwards  2s;
+}
+@keyframes looper {
+from {
+
+    transform: scale(10);
+}
+to{
+    transform: scale(1);
+
+}
+
 }
