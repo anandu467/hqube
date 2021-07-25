@@ -63,12 +63,13 @@ body {
   font-size: 62.5%;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+  transition:filter 1s;
 }
 
 
 
 .dark-mode {
-    transition:filter 1s;
+
     background-color: black;
     filter: invert(1) hue-rotate(180deg);
 }
@@ -185,6 +186,7 @@ nav {
 
 .hero-image {
   height: 560px;
+  transition:none !important;
 }
 h2 {
   font-size: 3.5rem;

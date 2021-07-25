@@ -2,7 +2,7 @@ let button = document.querySelector('#dark-toggle');
 
 button.addEventListener('click', ()=>{
 
-  document.documentElement.classList.toggle('dark-mode');
+  document.querySelector('body').classList.toggle('dark-mode');
 
 
   excluded=[".contact_btn-main"]
