@@ -13,7 +13,7 @@ button.addEventListener('click', ()=>{
 
   });
   document.querySelector('#dark-toggle>i').classList.toggle("fa-moon");
-  document.querySelector('#dark-toggle>i').classList.toggle("fa-lightbulb");
+  document.querySelector('#dark-toggle>i').classList.toggle("fa-sun");
 
   
 });

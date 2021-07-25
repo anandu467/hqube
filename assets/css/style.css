@@ -210,16 +210,24 @@ h2 {
 #LAPTOP{
     position: relative;
 
-        animation: looper  forwards  2s;
+        animation: looper ease-in-out alternate-reverse infinite 1s;
+}
+
+
+#FOOT{
+    animation: looper ease-in-out alternate-reverse infinite 1s;
+
+    
 }
 @keyframes looper {
 from {
 
-    transform: scale(10);
+    transform: rotate(-0.8deg);
 }
 to{
-    transform: scale(1);
+    transform: rotate(0.7deg);
 
 }
 
 }
+
