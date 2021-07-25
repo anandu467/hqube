@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.4;
 }
 ol, ul {
 	list-style: none;
@@ -81,8 +81,8 @@ body {
 
 #dark-toggle {
 
-    font-size: 3rem;
-    width: 8rem;
+    font-size: 2.5rem;
+    width: 5.6rem;
     text-align: right;
     border:none;
     outline:none;
@@ -93,11 +93,12 @@ body {
 
 #dark-toggle:hover{
 
-    font-size:4rem;
+    font-size:3rem;
    
 }
 h1 {
-  font-size: 2.5rem;
+    font-weight: bold;
+  font-size: 2rem;
   margin: 1rem 2rem;
   color: black;
 }
@@ -125,7 +126,7 @@ nav {
   justify-self: flex-end;
 
   display: flex;
-  font-size: 2rem;
+  font-size: 1.4rem;
   list-style: none;
 }
 .header-item {
@@ -133,11 +134,11 @@ nav {
 }
 
 .contact_btn ,.contact_btn-main{
-  padding: 1.4rem 2rem;
+  padding: 1.1rem ;
   color: aliceblue;
   border: none;
-  font-size: 2rem;
-  width: 16rem;
+  font-size: 1.4rem;
+  width: 12rem;
 
   background-color: #6562cf;
 }
@@ -174,10 +175,10 @@ nav {
 }
 
 .hero-image {
-  height: 800px;
+  height: 560px;
 }
 h2 {
-  font-size: 5rem;
+  font-size: 3.5rem;
   font-weight: 700;
 }
 .container {
@@ -188,7 +189,8 @@ h2 {
 }
 
 #hero-txt {
-  margin: 4rem 0;
+    line-height: 1.6;
+  margin: 3.5rem 0;
 
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
