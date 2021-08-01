@@ -174,7 +174,7 @@ body {
 h1 {
   font-weight: bold;
   font-size: 2rem;
-  margin: 1rem 2rem;
+  margin: 3rem 0rem;
   color: black;
 }
 
@@ -306,7 +306,7 @@ h2 {
 
 .services {
   position: relative;
-  height: 100vh;
+  height: 70vh;
   display: flex;
   width: 90%;
   margin: auto;
@@ -443,16 +443,18 @@ color: #e7c3a1;
   width: 80%;
   margin: auto;
   padding: 70px 0;
-  height: 80vh;
+  height: 100vh; 
+ 
+  
+}
+.works-header{
+text-align: center;
 }
 
-.works h1 { 
-
-}
 
 .works .cards { 
   display: flex;
-	margin-top: 5px;
+	margin-top: 5rem;
 	flex-wrap: wrap;
 	justify-content: space-between;
 
