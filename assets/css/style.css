@@ -16,13 +16,12 @@ body {
 
 .dark-mode {
   background-color: black;
-  color: white;
-  /* filter: invert(1) hue-rotate(180deg); */
+  filter: invert(1) hue-rotate(180deg);
 }
 
 .undo-invert {
   transition: none;
-
+  filter: invert(1) hue-rotate(180deg);
 }
 
 #dark-toggle {
@@ -106,7 +105,7 @@ nav {
 /* HERO SECTION */
 
 .hero {
-  height: 90vh;
+  height: 80vh;
   width: 60%;
   margin: auto;
   display: flex;
@@ -177,19 +176,17 @@ h2 {
 
 .services {
   position: relative;
-  height: 80vh;
+  height: 100vh;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   width: 80%;
   margin: auto;
 }
 /* SECTION 3 .works */
 
 
-.services-left {
-
-
-  width:40%
-}
 .services-right {
   width:60%;
   display: flex;
@@ -248,11 +245,8 @@ margin-bottom: 1rem;
 }
 
 .section-header{
-  position: absolute;
-  top: 0;
-  justify-self: flex-start;
-
-align-self: flex-start;
+  margin: 3rem;
+  text-align: center;
 
 }
 .service-des{
@@ -265,12 +259,7 @@ align-self: flex-start;
   font-size :1.2rem;
 }
 
-.services-left{
-  display:flex;
-  flex-direction:column;
-  justify-content:center; 
-  align-items: center;
-}
+
 
 #animation-placeholder{
   width:80%;
