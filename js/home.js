@@ -38,3 +38,34 @@ service2.addEventListener("mouseover",()=>{setAnimation("./assets/images/app_des
 service3.addEventListener("mouseover",()=>{setAnimation("./assets/images/marketing.gif")});
 service4.addEventListener("mouseover",()=>{setAnimation("./assets/images/ui_design.gif")});
 
+$('#slick-slider').slick({
+  autoplay: true,
+  autoplaySpeed: 4000,
+  draggable: true,
+  swipeToSlide: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  infinite: true,
+  arrows: false,
+  responsive: [
+    {
+      breakpoint: 981,
+      settings: {
+        slidesToShow: 3.3,
+      }
+    },
+    {
+    breakpoint: 700,
+      settings: {
+        slidesToShow: 2.3,
+      }
+    },
+  {
+  breakpoint: 480,
+    settings: {
+    slidesToShow: 1.3,
+    }
+  },
+  ]
+  
+});
