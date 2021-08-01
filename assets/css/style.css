@@ -438,3 +438,60 @@ color:#d58be3b6;
 #service4>i{
 color: #e7c3a1;
 }
+
+.works { 
+  width: 80%;
+  margin: auto;
+  padding: 70px 0;
+  height: 80vh;
+}
+
+.works h1 { 
+
+}
+
+.works .cards { 
+  display: flex;
+	margin-top: 5px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.works .cards .card { 
+  width: 23%;
+	margin: 30px 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+
+}
+
+.works .cards .card .img { 
+ display: block;
+
+}
+
+.works .cards .card .img img { 
+  display: block;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.works .cards .card .content { 
+  margin-top: 30px;
+}
+
+.works .cards .card .content h5 { 
+  font-size: 18px;
+  font-weight: 600;
+
+}
+
+.works .cards .card .content p { 
+  font-size: 14px;
+  margin-top: 4px;
+  font-weight: 500;
+  color: #999;
+
+}
