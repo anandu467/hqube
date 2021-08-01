@@ -1,7 +1,15 @@
 * {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html,
@@ -11,6 +19,13 @@ body {
   scroll-behavior: smooth;
   transition: filter 1s;
 }
+ol, ul {
+	list-style: none;
+}
+a {
+	color: #000;
+}
+
 
 /* DARK MODE */
 
@@ -87,12 +102,40 @@ nav {
 
   background-color: #6562cf;
 }
-.contact {
-  color: #6562cf;
-  /* text-decoration: underline; */
-  cursor: pointer;
-  font-weight: 700;
+.click-button a { 
+	padding: 11px 21px;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    background: -webkit-linear-gradient(#2FB8F4, #0B3F7A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+.click-button a::before{
+	content:"";
+	position:absolute;
+	z-index:-1;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	padding: 2px;
+    border-radius: 5px;
+	background: linear-gradient(to right, #2FB8F4, #0B3F7A);
+	-webkit-mask: 
+	   linear-gradient(#fff 0 0) content-box, 
+	   linear-gradient(#fff 0 0);
+	-webkit-mask-composite: destination-out;
+	mask-composite: exclude;
+}
+.click-button a:hover{
+	background: linear-gradient(to right,#2FB8F4,#0B3F7A);
+	color: #fff;
+	border-radius: 5px;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
 
 .contact_btn-main:hover {
   background-color: #4f4bae;
