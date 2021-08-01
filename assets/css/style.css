@@ -16,12 +16,13 @@ body {
 
 .dark-mode {
   background-color: black;
-  filter: invert(1) hue-rotate(180deg);
+  color: white;
+  /* filter: invert(1) hue-rotate(180deg); */
 }
 
 .undo-invert {
   transition: none;
-  filter: invert(1) hue-rotate(180deg);
+
 }
 
 #dark-toggle {
@@ -176,9 +177,9 @@ h2 {
 
 .services {
   position: relative;
-  height: 70vh;
+  height: 80vh;
   display: flex;
-  width: 90%;
+  width: 80%;
   margin: auto;
 }
 /* SECTION 3 .works */
@@ -312,7 +313,7 @@ color: #e7c3a1;
 .works { 
   width: 80%;
   margin: auto;
-  padding: 70px 0;
+  /* padding: 70px 0; */
   height: 100vh; 
  
   
